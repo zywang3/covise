@@ -51,8 +51,8 @@
     <WSInterface value="false" />
 	
    <VRB>
-    <Server value="localhost" tcpPort="31251" udpPort="31253" />
-	<remoteFetch value="true" />
+    <Server value="localhost" tcpPort="31201" udpPort="31202"/>
+	<remoteFetch value = "true" />
    </VRB>
 
    <CRB>
