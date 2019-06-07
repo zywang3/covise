@@ -1195,7 +1195,7 @@ std::string coVRFileManager::findOrGetFile(const std::string & filePath, bool is
 		
 		filePlace = LINK;
 	}
-	else if (fileExist(path = fs::temp_directory_path().string() + "/OpenCOVER/" + cutFileName(filePath)))	//find fetched file in tmp
+	else if (fileExist(path = fs::temp_directory_path().string() + "/OpenCOVER/" + getFileName(filePath)))	//find fetched file in tmp
 	{
 		filePlace = TMP;
 	}
@@ -1276,7 +1276,10 @@ std::string coVRFileManager::findOrGetFile(const std::string & filePath, bool is
 			}
 		}
 	}
-
+	if (filePlace == MISS)
+	{
+		path = "";
+	}
 
     return path;
 }
