@@ -1,0 +1,5 @@
+#DR01.exa config file
+scalar density DR01.scalars
+# for density, only look at 1.17 to 1.21 region:
+# value_range 1.17 1.21
+bricks DR01.bricks

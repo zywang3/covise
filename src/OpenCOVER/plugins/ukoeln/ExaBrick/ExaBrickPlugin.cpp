@@ -131,7 +131,7 @@ ExaBrickPlugin *ExaBrickPlugin::instance()
 ExaBrickPlugin::ExaBrickPlugin()
 : ui::Owner("ExaBrickPlugin",cover->ui)
 , editor(NULL)
-//, coVRPlugin(COVER_PLUGIN_NAME)  //for new covise
+, coVRPlugin(COVER_PLUGIN_NAME)  //for new covise
 {
   fprintf(stderr, "ExaBrickPlugin::ExaBrickPlugin\n");
   //register filehandler

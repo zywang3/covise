@@ -1,0 +1,5 @@
+#test.exa config file
+scalar density test.scalars
+# for density, only look at 1.17 to 1.21 region:
+# value_range 1.17 1.21
+bricks test.bricks

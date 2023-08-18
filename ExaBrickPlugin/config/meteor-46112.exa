@@ -1,0 +1,5 @@
+#test.exa config file
+scalar density meteor-46112.tev.scalars
+# for density, only look at 1.17 to 1.21 region:
+# value_range 1.17 1.21
+bricks meteor-46112.bricks
